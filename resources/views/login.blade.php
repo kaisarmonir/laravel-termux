@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 @section('title','learning')
-
++
 @section('content')
-<img src="/laravel/blog/public/img/img2.jpg" class="rounded-circle mx-auto d-block">
+<img src="/laravel/blog/public/img/img2.jpg" class="rsounded-circle mx-auto d-block">
 	<div class="container">
 	<div class="row">
 	
@@ -31,7 +31,7 @@
 	<div class="alert alert-success alert-dismissible fade show"> <button type="button" class="close" data-dismiss="alert">&times</button> <strong>Success!</strong> you're done.
 	</div>
 	
-	<a href="/laravel/blog/public/">Go back</a>
+	<a href={{url("/")}}>Go back</a>
 	</div>
 		</div>
 	</div>

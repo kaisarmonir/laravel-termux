@@ -21,7 +21,7 @@ Route::get('login/{d}/{e}/{f}', [loginController::class,'indexx']);
 
 Route::get('/', function () {
 	$d=new Post; dd($d->all());
-	
+
 });
 
 route::view("tt", "welcome");
